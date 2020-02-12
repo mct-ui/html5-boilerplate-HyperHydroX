@@ -147,6 +147,7 @@ a:active {
 a:hover,
 a:focus {
     color: crimson;
+    cursor: pointer;
 }
 
 table {
@@ -166,6 +167,25 @@ td {
 
 .odd {
     background-color: whitesmoke;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.nav__item {
+    list-style: none;
+    padding: 1.5rem;
+    
+}
+
+.nav__item--link {
+   font-size: 2rem;
+   text-decoration: none;
+   color: black;
 }
 
 /*
